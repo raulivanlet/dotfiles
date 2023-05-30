@@ -21,7 +21,8 @@ GRUB_COLOR_HIGHLIGHT="yellow/light-gray"
 # format "root=/dev/xxx" instead of "root=/dev/disk/by-uuid/xxx"
 #GRUB_DISABLE_LINUX_UUID=true
 
-#GRUB_BACKGROUND="/boot/grub/grubbootloaderpic.png"
+GRUB_BACKGROUND="/etc/default/grubbootloaderpic.png"
+
 #GRUB_THEME="/path/to/gfxtheme"
 
 GRUB_SAVEDEFAULT=true

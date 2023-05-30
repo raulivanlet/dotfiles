@@ -11,7 +11,6 @@ cp configs/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 printf "\n\n            Update Grub Settings...\n"
 if [ -f /etc/default/grub ]; then sudo rm /etc/default/grub; fi
 sudo cp configs/grub /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
 #--------------------Update I3
@@ -47,7 +46,7 @@ sudo cp configs/x_mouse_accel.txt /etc/X11/xorg.conf.d/50-mouse-acceleration.con
 
 
 #--------------------Update Grub Background Image
-#printf "\n\n            Update Grub Background Image...\n"
-#if [ -f /boot/grub/grubbootloaderpic.png ]; then sudo rm /boot/grub/grubbootloaderpic.png; fi
-#sudo cp images/grubbootloaderpic.png /boot/grub/grubbootloaderpic.png
-#sudo grub-mkconfig -o /boot/grub/grub.cfg
+printf "\n\n            Update Grub Background Image...\n"
+if [ -f /etc/default/grubbootloaderpic.png ]; then sudo rm /etc/default/grubbootloaderpic.png; fi
+sudo cp images/grubbootloaderpic.png /etc/default/grubbootloaderpic.png
+sudo grub-mkconfig -o /boot/grub/grub.cfg
