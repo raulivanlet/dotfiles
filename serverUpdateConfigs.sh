@@ -33,6 +33,17 @@ if [ -f /home/${USER}/data/homepage/config/widgets.yaml ];
 fi
 
 
+#--------------------Update homepage icons
+if [ ! -f /home/${USER}/data/homepage/icons/home-assistant.png ]; then sudo cp images/home-assistant.png /home/${USER}/data/homepage/icons/home-assistant.png; fi
+if [ ! -f /home/${USER}/data/homepage/icons/jellyfin.png ]; then sudo cp images/jellyfin.png /home/${USER}/data/homepage/icons/jellyfin.png; fi
+if [ ! -f /home/${USER}/data/homepage/icons/mainsail.png ]; then sudo cp images/mainsail.png /home/${USER}/data/homepage/icons/mainsail.png; fi
+if [ ! -f /home/${USER}/data/homepage/icons/nextcloud.png ]; then sudo cp images/nextcloud.png /home/${USER}/data/homepage/icons/nextcloud.png; fi
+if [ ! -f /home/${USER}/data/homepage/icons/proxmox.png ]; then sudo cp images/proxmox.png /home/${USER}/data/homepage/icons/proxmox.png; fi
+if [ ! -f /home/${USER}/data/homepage/icons/qbittorrent.png ]; then sudo cp images/qbittorrent.png /home/${USER}/data/homepage/icons/qbittorrent.png; fi
+if [ ! -f /home/${USER}/data/homepage/icons/syncthing.png ]; then sudo cp images/syncthing.png /home/${USER}/data/homepage/icons/syncthing.png; fi
+if [ ! -f /home/${USER}/data/homepage/icons/zigbee2mqtt.png ]; then sudo cp images/zigbee2mqtt.png /home/${USER}/data/homepage/icons/zigbee2mqtt.png; fi
+
+
 #--------------------Create zigbee2mqtt folders
 if [ ! -d /home/${USER}/data/zigbee2mqtt ]; then sudo mkdir /home/${USER}/data/zigbee2mqtt; fi
 if [ ! -d /home/${USER}/data/zigbee2mqtt/zigbee ]; then sudo mkdir /home/${USER}/data/zigbee2mqtt/zigbee; fi

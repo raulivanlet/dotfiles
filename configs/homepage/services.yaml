@@ -30,16 +30,16 @@
         container: syncthing
     - Jellyfin:
         href: http://192.168.0.196:8086/
-        icon: /icons/myicon.png
+        icon: /icons/jellyfin.png
         ping: http://192.168.0.196:8086/
         container: jellyfin
     - Qbittorrent:
         href: http://192.168.0.196:8087/
-        icon: /icons/myicon.png
+        icon: /icons/qbittorrent.png
         ping: http://192.168.0.196:8087/
         container: qbittorrent
     - Zigbee2mqtt:
         href: http://192.168.0.196:8089/
-        icon: /icons/zigbee.png
+        icon: /icons/zigbee2mqtt.png
         ping: http://192.168.0.196:8089/
         container: zigbee
