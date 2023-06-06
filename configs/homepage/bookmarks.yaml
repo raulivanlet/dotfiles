@@ -2,19 +2,30 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/bookmarks
 
-- Github:
-  - abbr: GH
-    href: https://github.com/
 
-- ChatGPT:
-  - abbr: GPT
-    href: https://chat.openai.com/
 
-- Reddit:
-  - abbr: RE
-    href: https://reddit.com/
+- Development:
+  - Github:
+    - icon: reddit.png
+      href: https://github.com/
 
-- YouTube:
-  - abbr: YT
-    href: https://www.youtube.com/feed/library
+  - ChatGPT:
+    - icon: reddit.png
+      href: https://chat.openai.com/
 
+- Leisure:
+  - Reddit:
+    - icon: reddit.png
+      href: https://reddit.com/
+
+  - YouTube:
+    - icon: reddit.png
+      href: https://www.youtube.com/feed/library
+
+  - Netflix:
+    - icon: reddit.png
+      href: https://www.netflix.com/browse
+
+  - HBOMax:
+    - icon: reddit.png
+      href: https://play.hbomax.com/signIn

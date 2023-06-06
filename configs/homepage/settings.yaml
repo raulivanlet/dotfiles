@@ -8,6 +8,17 @@ headerStyle: boxed
 
 target: _blank
 
+
+layout:
+  Development:
+    style: row
+    columns: 2
+  Home Server:
+    style: row
+    columns: 2
+
+
+
 quicklaunch:
   searchDescriptions: true
   hideInternetSearch: true
