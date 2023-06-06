@@ -6,7 +6,7 @@
 
 - Development:
   - Github:
-    - icon: reddit.png
+    - icon: github.png
       href: https://github.com/
 
   - ChatGPT:
@@ -19,9 +19,10 @@
       href: https://reddit.com/
 
   - YouTube:
-    - icon: reddit.png
+    - icon: youtube.png
       href: https://www.youtube.com/feed/library
 
+- Streaming:
   - Netflix:
     - icon: reddit.png
       href: https://www.netflix.com/browse
@@ -29,3 +30,21 @@
   - HBOMax:
     - icon: reddit.png
       href: https://play.hbomax.com/signIn
+
+- Communication:
+  - Whatsapp:
+    - icon: reddit.png
+      href: https://web.whatsapp.com/
+
+  - Teleram:
+    - icon: reddit.png
+      href: https://web.telegram.org/k/
+
+- Cloud Storage:
+  - GoogleDrive:
+    - icon: reddit.png
+      href: https://drive.google.com/drive/my-drive
+
+  - OneDrive:
+    - icon: reddit.png
+      href: https://www.office.com/?auth=1
