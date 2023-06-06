@@ -10,7 +10,7 @@
       href: https://github.com/
 
   - ChatGPT:
-    - icon: reddit.png
+    - icon: chatgpt.png
       href: https://chat.openai.com/
 
 - Leisure:
@@ -24,27 +24,27 @@
 
 - Streaming:
   - Netflix:
-    - icon: reddit.png
+    - icon: netflix.png
       href: https://www.netflix.com/browse
 
   - HBOMax:
-    - icon: reddit.png
+    - icon: hbomax.png
       href: https://play.hbomax.com/signIn
 
 - Communication:
   - Whatsapp:
-    - icon: reddit.png
+    - icon: whatsapp.png
       href: https://web.whatsapp.com/
 
   - Teleram:
-    - icon: reddit.png
+    - icon: telegram.png
       href: https://web.telegram.org/k/
 
 - Cloud Storage:
   - GoogleDrive:
-    - icon: reddit.png
+    - icon: googledrive.png
       href: https://drive.google.com/drive/my-drive
 
   - OneDrive:
-    - icon: reddit.png
+    - icon: onedrive.png
       href: https://www.office.com/?auth=1
