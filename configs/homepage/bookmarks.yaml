@@ -28,7 +28,7 @@
       href: https://www.netflix.com/browse
 
   - HBOMax:
-    - icon: hbomax.png
+    - icon: hbo.png
       href: https://play.hbomax.com/signIn
 
 - Communication:
@@ -42,9 +42,9 @@
 
 - Cloud Storage:
   - GoogleDrive:
-    - icon: googledrive.png
+    - icon: gdrive.png
       href: https://drive.google.com/drive/my-drive
 
   - OneDrive:
-    - icon: onedrive.png
+    - icon: microsoft.png
       href: https://www.office.com/?auth=1
