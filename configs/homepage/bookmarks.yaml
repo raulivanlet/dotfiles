@@ -3,16 +3,20 @@
 # https://gethomepage.dev/en/configs/bookmarks
 
 - Developer:
-    - Github:
-        - abbr: GH
-          href: https://github.com/
+  - Github:
+    - abbr: GH
+      href: https://github.com/
+  - ChatGPT:
+    - abbr: GPT
+      href: https://chat.openai.com/
+    
 
 - Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
+  - Reddit:
+    - abbr: RE
+      href: https://reddit.com/
 
 - Entertainment:
-    - YouTube:
-        - abbr: YT
-          href: https://youtube.com/
+  - YouTube:
+    - abbr: YT
+      href: https://www.youtube.com/feed/library
