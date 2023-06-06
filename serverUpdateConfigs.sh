@@ -51,13 +51,13 @@ if [ ! -d /home/${USER}/data/zigbee2mqtt/mosquitto ]; then sudo mkdir /home/${US
 
 #--------------------Update zigbee2mqtt files
 if [ -f /home/${USER}/data/zigbee2mqtt/zigbee/config.yaml ];
-    then sudo bash -c 'cat configs/homepage/zigbeeconfig.yaml > /home/${USER}/data/zigbee2mqtt/zigbee/config.yaml';
-    else sudo cp configs/homepage/zigbeeconfig.yaml /home/${USER}/data/zigbee2mqtt/zigbee/config.yaml;
+    then sudo bash -c 'cat configs/server/zigbeeconfig.yaml > /home/${USER}/data/zigbee2mqtt/zigbee/config.yaml';
+    else sudo cp configs/server/zigbeeconfig.yaml /home/${USER}/data/zigbee2mqtt/zigbee/config.yaml;
 fi
 
 #--------------------Update mqtt files
 if [ -f /home/${USER}/data/zigbee2mqtt/mosquitto/mosquitto.conf ];
-    then sudo bash -c 'cat configs/homepage/mosquitto.conf > /home/${USER}/data/zigbee2mqtt/mosquitto/mosquitto.conf';
-    else sudo cp configs/homepage/mosquitto.conf /home/${USER}/data/zigbee2mqtt/mosquitto/mosquitto.conf;
+    then sudo bash -c 'cat configs/server/mosquitto.conf > /home/${USER}/data/zigbee2mqtt/mosquitto/mosquitto.conf';
+    else sudo cp configs/server/mosquitto.conf /home/${USER}/data/zigbee2mqtt/mosquitto/mosquitto.conf;
 fi
 
