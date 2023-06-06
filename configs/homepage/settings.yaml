@@ -25,12 +25,12 @@ providers:
 theme: dark # or light
 
 #slate, gray, zinc, neutral, stone, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose, red, white
-color: lime
+color: gray
 
 layout:
   Home Server:
     style: row
-    columns: 3
+    columns: 2
   Debian Server:
     style: row
     columns: 3
