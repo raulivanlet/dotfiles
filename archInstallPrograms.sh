@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #-------------------- Update system --------------------#
 sudo pacman -Syu
 
@@ -37,12 +38,8 @@ sudo pacman -S --needed virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq nfta
 #-------------------- Install apps --------------------#
 sudo pacman -S --needed prusa-slicer blender
 
-#-------------------- Install joplin --------------------#
-NPM_CONFIG_PREFIX=~/.joplin-bin npm install -g joplin
-sudo ln -s ~/.joplin-bin/bin/joplin /usr/bin/joplin
-
 #-------------------- Install development packages --------------------#
-sudo pacman -S --needed git vim nodejs npm
+sudo pacman -S --needed git vim
 
 #-------------------- Enable modules --------------------#
 systemctl enable lightdm.service

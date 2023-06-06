@@ -1,0 +1,45 @@
+- Home Server:
+    - Proxmox:
+        href: "https://192.168.0.111:8006/#v1:0:=node%2Fpve:4:5::::::"
+        description: Proxmox VE
+        icon: /icons/proxmox.png
+        ping: "https://192.168.0.111:8006/#v1:0:=node%2Fpve:4:5::::::"
+        #widget:
+          #type: proxmox
+          #url: "https://192.168.0.111:8006/#v1:0:=node%2Fpve:4:5::::::"
+
+    - Home Assistant:
+        href: http://192.168.0.170:8123/lovelace/0
+        description: Home Assistant OS
+        icon: /icons/home-assistant.png
+        ping: http://192.168.0.170:8123/lovelace/0
+        #widget:
+          #type: homeassistant
+          #url: http://192.168.0.170:8123/lovelace/0
+
+- Debian Server:
+    - Nextcloud:
+        href: http://192.168.0.196:8085/
+        icon: /icons/nextcloud.png
+        ping: http://192.168.0.196:8085/
+        container: nextcloud
+    - Syncthing:
+        href: https://192.168.0.196:8384/
+        icon: /icons/syncthing.png
+        ping: https://192.168.0.196:8384/
+        container: syncthing
+    - Jellyfin:
+        href: http://192.168.0.196:8086/
+        icon: /icons/myicon.png
+        ping: http://192.168.0.196:8086/
+        container: jellyfin
+    - Qbittorrent:
+        href: http://192.168.0.196:8087/
+        icon: /icons/myicon.png
+        ping: http://192.168.0.196:8087/
+        container: qbittorrent
+    - Zigbee2mqtt:
+        href: http://192.168.0.196:8089/
+        icon: /icons/zigbee.png
+        ping: http://192.168.0.196:8089/
+        container: zigbee
