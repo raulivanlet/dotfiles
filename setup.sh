@@ -2,7 +2,7 @@
 
 #--------------------Create DATADIR folder
 DATADIR=${HOME}
-DATADIR=${DATADIR}/servdata
+DATADIR=${DATADIR}/data
 if [ ! -d  ${DATADIR} ]; then mkdir ${DATADIR}; fi
 
 #--------------------Create homepage folder
@@ -16,11 +16,11 @@ if [ -f  ${HOMECONF}/docker.yaml ]; then rm -f ${HOMECONF}/docker.yaml; fi
 if [ -f  ${HOMECONF}/services.yaml ]; then rm -f ${HOMECONF}/services.yaml; fi
 if [ -f  ${HOMECONF}/settings.yaml ]; then rm -f ${HOMECONF}/settings.yaml; fi
 if [ -f  ${HOMECONF}/widgets.yaml ]; then rm -f ${HOMECONF}/widgets.yaml; fi
-cp configs/homepage/bookmarks.yaml ${HOMECONF}/bookmarks.yaml;
-cp configs/homepage/docker.yaml ${HOMECONF}/docker.yaml;
-cp configs/homepage/services.yaml ${HOMECONF}/services.yaml;
-cp configs/homepage/settings.yaml ${HOMECONF}/settings.yaml;
-cp configs/homepage/widgets.yaml ${HOMECONF}/widgets.yaml;
+cp configs/homepage/bookmarks.yaml ${HOMECONF}/bookmarks.yaml
+cp configs/homepage/docker.yaml ${HOMECONF}/docker.yaml
+cp configs/homepage/services.yaml ${HOMECONF}/services.yaml
+cp configs/homepage/settings.yaml ${HOMECONF}/settings.yaml
+cp configs/homepage/widgets.yaml ${HOMECONF}/widgets.yaml
 
 #--------------------Update homepage icons
 HOMEICO=${DATADIR}/homepage/icons
@@ -40,10 +40,11 @@ if [ ! -d  ${DATADIR}/zigbee2mqtt/zigbee ]; then mkdir ${DATADIR}/zigbee2mqtt/zi
 if [ ! -d  ${DATADIR}/zigbee2mqtt/mosquitto ]; then mkdir ${DATADIR}/zigbee2mqtt/mosquitto; fi
 
 #--------------------Update zigbee2mqtt files
-if [ -f  ${DATADIR}/zigbee2mqtt/zigbee/config.yaml ]; then rm -f ${DATADIR}/zigbee2mqtt/zigbee/config.yaml; fi
-cp configs/server/zigbeeconfig.yaml ${DATADIR}/zigbee2mqtt/zigbee/config.yaml;
+if [ -f  ${DATADIR}/zigbee2mqtt/zigbee/config.yaml ]; then rm -f ${DATADIR}/zigbee2mqtt/zigbee/configuration.yaml; fi
+#rm -rf ${DATADIR}/zigbee2mqtt/zigbee/*
+cp configs/server/zigbeeconfig.yaml ${DATADIR}/zigbee2mqtt/zigbee/configuration.yaml
 
 #--------------------Update mqtt files
 if [ -f  ${DATADIR}/zigbee2mqtt/mosquitto/mosquitto.conf ]; then rm -f ${DATADIR}/zigbee2mqtt/mosquitto/mosquitto.conf; fi
-cp configs/server/mosquitto.conf ${DATADIR}/zigbee2mqtt/mosquitto/mosquitto.conf;
-
+#rm -rf ${DATADIR}/zigbee2mqtt/mosquitto/*
+cp configs/server/mosquitto.conf ${DATADIR}/zigbee2mqtt/mosquitto/mosquitto.conf
